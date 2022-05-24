@@ -8,7 +8,7 @@ import com.orangehrm.pages.LoginPage;
 
 public class LoginTestCase extends BaseClass{
 	
-	
+	//This is the Login Test case
 	@Test(priority=1, enabled = false, description="Orange HRM Login Functionality verification")
 	public void loginApp() {
 		
@@ -18,7 +18,7 @@ public class LoginTestCase extends BaseClass{
 	}
 	
 	
-	
+	//This is the Forgot password link test case
 	@Test(priority=2, description="Forgot password link verification")
 	public void forgotPasswordlink(){
 		
