@@ -1,0 +1,5 @@
+com\orangehrm\Utility\BrowserFactory.class
+com\orangehrm\pages\BaseClass.class
+com\orangehrm\pages\LoginPage.class
+com\orangehrm\Testcases\LoginTestCase.class
+com\orangehrm\Utility\ImageCheck.class
