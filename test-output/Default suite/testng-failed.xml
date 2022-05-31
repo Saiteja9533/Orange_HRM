@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.orangehrm.Testcases.LoginTestCase">
+      <class name="com.orangehrm.Testcases.HomePageTestcase">
         <methods>
-          <include name="closeApplication"/>
-          <include name="forgotPasswordlink"/>
-          <include name="startApplication"/>
+          <include name="homepageMainmenu"/>
         </methods>
-      </class> <!-- com.orangehrm.Testcases.LoginTestCase -->
+      </class> <!-- com.orangehrm.Testcases.HomePageTestcase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

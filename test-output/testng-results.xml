@@ -1,21 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="3" total="6" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-24T12:51:21 IST" name="Default suite" finished-at="2022-05-24T12:51:29 IST" duration-ms="7746">
+  <suite started-at="2022-05-31T11:25:51 IST" name="Suite" finished-at="2022-05-31T11:26:07 IST" duration-ms="15545">
     <groups>
     </groups>
-    <test started-at="2022-05-24T12:51:21 IST" name="Default test" finished-at="2022-05-24T12:51:29 IST" duration-ms="7746">
+    <test started-at="2022-05-31T11:25:51 IST" name="Test" finished-at="2022-05-31T11:26:07 IST" duration-ms="15545">
+      <class name="com.orangehrm.Testcases.HomePageTestcase">
+        <test-method signature="homepageMainmenu()[pri:3, instance:com.orangehrm.Testcases.HomePageTestcase@3012646b]" started-at="2022-05-31T11:25:57 IST" name="homepageMainmenu" description="Home Page Mainmenu Headers verification" finished-at="2022-05-31T11:25:58 IST" duration-ms="508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepageMainmenu -->
+        <test-method signature="newUserCreation()[pri:4, instance:com.orangehrm.Testcases.HomePageTestcase@3012646b]" started-at="2022-05-31T11:25:58 IST" name="newUserCreation" description="Creating New User testcase verification" finished-at="2022-05-31T11:26:07 IST" duration-ms="8822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newUserCreation -->
+      </class> <!-- com.orangehrm.Testcases.HomePageTestcase -->
       <class name="com.orangehrm.Testcases.LoginTestCase">
-        <test-method is-config="true" signature="startApplication()[pri:0, instance:com.orangehrm.Testcases.LoginTestCase@5a45133e]" started-at="2022-05-24T12:51:21 IST" name="startApplication" finished-at="2022-05-24T12:51:27 IST" duration-ms="6661" status="PASS">
+        <test-method is-config="true" signature="startApplication()[pri:0, instance:com.orangehrm.Testcases.LoginTestCase@2e3967ea]" started-at="2022-05-31T11:25:41 IST" name="startApplication" finished-at="2022-05-31T11:25:51 IST" duration-ms="10352" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startApplication -->
-        <test-method signature="forgotPasswordlink()[pri:2, instance:com.orangehrm.Testcases.LoginTestCase@5a45133e]" started-at="2022-05-24T12:51:27 IST" name="forgotPasswordlink" description="Forgot password link verification" finished-at="2022-05-24T12:51:29 IST" duration-ms="1054" status="PASS">
+        <test-method signature="loginApp()[pri:1, instance:com.orangehrm.Testcases.LoginTestCase@2e3967ea]" started-at="2022-05-31T11:25:51 IST" name="loginApp" description="Orange HRM Login Functionality verification" finished-at="2022-05-31T11:25:57 IST" duration-ms="6187" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- forgotPasswordlink -->
+        </test-method> <!-- loginApp -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:com.orangehrm.Testcases.LoginTestCase@2e3967ea]" started-at="2022-05-31T11:26:07 IST" name="closeApplication" finished-at="2022-05-31T11:26:07 IST" duration-ms="693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
       </class> <!-- com.orangehrm.Testcases.LoginTestCase -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
